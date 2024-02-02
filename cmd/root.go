@@ -12,8 +12,8 @@ import (
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
 	Use:   "mynews",
-	Short: "mynews allows you to fetch current news articles and send them to your Discord",
-	Long:  `mynews is a command-line tool that allows you to fetch current news articles and send them to your Discord server. `,
+	Short: "mynews allows you to fetch current news articles and send them to your LINE app",
+	Long:  `mynews is a command-line tool that allows you to fetch current news articles and send them to your LINE app. `,
 }
 
 // Execute adds all child commands to the root command and sets flags appropriately.
